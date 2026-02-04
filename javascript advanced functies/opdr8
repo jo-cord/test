@@ -1,0 +1,7 @@
+function applyToArray(arr, fn) {
+  return arr.map(fn);
+}
+
+// voorbeeld
+const resultaat = applyToArray([1, 2, 3], x => x * 3);
+console.log(resultaat); // [3, 6, 9]

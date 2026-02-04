@@ -1,0 +1,10 @@
+let animePersonages = [
+  "Naruto Uzumaki",
+  "Monkey D. Luffy",
+  "Goku",
+  "Sailor Moon",
+  "Spike Spiegel"
+];
+
+const gevonden = animePersonages.find(p => p === "Goku");
+console.log(gevonden);

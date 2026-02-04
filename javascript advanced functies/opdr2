@@ -1,0 +1,8 @@
+const kwadraat = (x) => x * x;
+
+
+
+function kwadraat(x) {
+  return x * x;
+}
+    

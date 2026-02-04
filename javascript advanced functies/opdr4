@@ -1,0 +1,4 @@
+const woorden = ['JavaScript', 'is', 'erg', 'leuk'];
+
+const resultaat = woorden.filter(woord => woord.length >= 3);
+console.log(resultaat);

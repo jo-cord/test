@@ -1,0 +1,4 @@
+const getallen = [1, 2, 3, 4, 5];
+
+const som = getallen.reduce((totaal, huidig) => totaal + huidig, 0);
+console.log(som); // 15

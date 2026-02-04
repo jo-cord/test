@@ -1,0 +1,5 @@
+studenten.forEach(student => {
+  if (student.cijfer >= 8) {
+    console.log(student);
+  }
+});
